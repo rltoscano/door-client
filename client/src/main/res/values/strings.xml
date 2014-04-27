@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Door Client</string>
+    <string name="label_activity_doorlist">Door List</string>
+    <string name="label_activity_door">Door Details</string>
+    <string name="action_settings">Settings</string>
+    <string name="makeDefault">Make Default</string>
+    <string name="openDoor">Open Door</string>
+
+</resources>

@@ -1,0 +1,19 @@
+Gombi door service android client.
+
+This is an Android Studio project.
+
+Setup:
+1. Populate the device/src/main/res/values/strings.xml#sender_id string with that of your google
+   developer project.
+2. Populate the lib/src/main/res/values/strings.xml#serviceHostName string with the domain name of
+   your door service.
+
+Modules:
+1. client - App for choosing and opening doors. Contains two launchers: one that shows the door list
+   and another that shows a detailed view of a door.
+2. device - App for physically communicating with the door. Registers a door with the service and
+   keeps its registration in sync.
+3. lib - Common code containing data structures and an API client for communicating with the door
+   service.
+
+Author: robert@gombi.net

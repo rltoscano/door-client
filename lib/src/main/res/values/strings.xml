@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Door Device</string>
+    <string name="serviceHostName"></string>
+</resources>
