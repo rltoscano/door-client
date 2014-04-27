@@ -22,7 +22,7 @@ import net.gombi.door.lib.Door;
  * Handles network communication with the door service.
  */
 public class DoorDetailsFragment extends Fragment {
-  /** Interface that a host activities of {@ link DoorDetailsFragment}s must implement. */
+  /** Interface that host activities of {@ link DoorDetailsFragment}s must implement. */
   public interface DoorDetailsHostActivity {
     /** Will always be called on the UI thread. */
     void onNoDoorAvailable();
